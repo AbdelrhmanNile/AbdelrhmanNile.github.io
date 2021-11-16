@@ -48,7 +48,7 @@ body.laserwave {
   --tree: var(--fg);
 }
 
-body.nord {
+body.onedark {
   --body-bg: #1e222a;
   --bg: #282c34;
   --fg: #c8ccd4;

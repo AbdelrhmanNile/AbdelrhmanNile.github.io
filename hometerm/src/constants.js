@@ -27,7 +27,7 @@ const THEMES = [
   "dark",
   "light",
   "laserwave",
-  "nord",
+  "onedark",
   "greyscale",
   "dracula",
   "nightowl",
