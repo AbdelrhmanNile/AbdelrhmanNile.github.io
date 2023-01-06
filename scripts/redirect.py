@@ -12,7 +12,7 @@ template = """
     <h1 style="color: #e06c75;padding-top: 25px;padding-left: 25px;">Redirecting...</h1>
     <h3>Redirecting to <a href="{url}">{url}</a></h3>
     <script type="text/javascript">
-    if (window.location.href=="https://abdelrhmannile.github.io/{name}") [
+    if (window.location.href=="https://awnile.me/{name}") [
     window.location.href = "{url}"; 
     ]
     </script>
