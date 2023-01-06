@@ -12,9 +12,7 @@ template = """
     <h1 style="color: #e06c75;padding-top: 25px;padding-left: 25px;">Redirecting...</h1>
     <h3>Redirecting to <a href="{url}">{url}</a></h3>
     <script type="text/javascript">
-    if (window.location.href=="https://awnile.me/{name}") [
-    window.location.href = "{url}"; 
-    ]
+    window.location.href = "{url}";
     </script>
 </body>
 
@@ -27,4 +25,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
     myargs = {"name": args.name, "url": args.url}
     with open(f"../{args.name}.html", "w") as f:
-        f.write(template.format(**myargs).replace("[", "{").replace("]", "}"))
+        f.write(template.format(**myargs))
