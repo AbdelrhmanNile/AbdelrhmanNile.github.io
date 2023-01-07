@@ -1,0 +1,21 @@
+# Site settings
+title: Abdelrhman Nile
+description: Jekyll Theme Minimal Resume
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Abdelrhman Nile
+user_description: I'm a Machine Learning Engineer from Egypt, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been particularly interested in the field of Computer Vision and Natural Language Processing. I am also a big fan of open source and I am always looking for ways to contribute to the community.
+user_title: Machine Learning Engineer
+email: abdelrhmannile@gmail.com
+# twitter_username: lorem_ipsum
+# instagram_username: lorem_ipsum
+# facebook_username: lorem_ipsum
+linkedin_username: abdelrhmannile
+github_username:  AbdelrhmanNile
+# medium_username: lorem_ipsum
+# medium_url: lorem_ipsum.medium.com
+# gplus_username:  lorem_ipsum
+
+exclude: ['package.json', 'src' , 'node_modules']
