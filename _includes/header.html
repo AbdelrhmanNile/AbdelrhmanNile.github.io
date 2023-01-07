@@ -28,6 +28,9 @@
         {% elsif site.medium_url %}
         <a aria-label="My Medium" target="_blank" href="https://{{ site.medium_url }}"><i class="icon fa fa-medium" aria-hidden="true"></i></a>
         {% endif %}
+        {% if site.blog_url %}
+        <a aria-label="My Blog" target="_blank" href="{{ site.blog_url }}"><i class="icon fa fa-rss" aria-hidden="true"></i></a>
+        {% endif %}
       </div>
       <div class="header-links">
         <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
